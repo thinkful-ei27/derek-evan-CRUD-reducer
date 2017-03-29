@@ -5,6 +5,7 @@ const initialState = {
 };
 
 export const crudReducer = (state=initialState, action) => {
+    // Add code which handles each action here
     if (action.type === ADD_ITEM) {
     }
     else if (action.type === UPDATE_ITEM) {
